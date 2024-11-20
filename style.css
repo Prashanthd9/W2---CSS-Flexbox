@@ -195,3 +195,49 @@
   position: absolute;
   bottom: 32px;
 }
+
+.container {
+  display: flex;
+}
+
+.username {
+  display: flex;
+  gap: 12px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content {
+  margin: 60px auto;
+  display: flex;
+}
+
+.main-profile img {
+  width: 120px;
+  height: 120px;
+}
+
+.main-profile {
+  margin-right: 60px;
+}
+
+.main-content-top {
+  display: flex;
+  gap: 12px;
+  font-size: 20px;
+}
+
+.main-content-top p {
+  font: ;
+}
+
+.btn-primary {
+  background-color: #0095f6;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
