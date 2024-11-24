@@ -200,36 +200,43 @@
   display: flex;
 }
 
-.username {
-  display: flex;
-  gap: 12px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-}
-
 .content {
-  margin: 60px auto;
+  margin: 60px 0;
   display: flex;
-}
-
-.main-profile img {
-  width: 120px;
-  height: 120px;
-}
-
-.main-profile {
-  margin-right: 60px;
+  justify-content: center;
 }
 
 .main-content-top {
   display: flex;
+  justify-content: center;
   gap: 12px;
-  font-size: 20px;
+  flex-wrap: wrap;
 }
 
-.main-content-top p {
-  font: ;
+.main-profile img {
+  width: 140px;
+  height: 140px;
+  margin-top: 60px;
+}
+
+.main-profile {
+  margin-left: 10%;
+  margin-right: 70px;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 16px;
+}
+
+.username p {
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .btn-primary {
@@ -240,4 +247,157 @@
   padding: 8px 20px;
   font-size: 14px;
   font-weight: 500;
+}
+
+.btn-top {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-right: 12px;
+  margin-bottom: 24px;
+}
+
+.btn-secondary {
+  background-color: #dbdbdb;
+  border-radius: 8px;
+  border: none;
+  color: rgb(13, 13, 13);
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn-icon {
+  background-color: #dbdbdb;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 8px;
+}
+
+.btn-icon-secondary {
+  border: none;
+  background-color: #ffffff;
+}
+
+.post-follower {
+  display: flex;
+  flex-basis: 100%;
+  gap: 36px;
+  margin-bottom: 24px;
+}
+
+.posts {
+  display: flex;
+  gap: 4px;
+}
+
+.posts h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.followers {
+  display: flex;
+  gap: 4px;
+}
+
+.followers h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.following {
+  display: flex;
+  gap: 4px;
+}
+
+.following h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.insta-thread-username {
+  margin-bottom: 8px;
+}
+
+.insta-thread-username h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.btn-thread-name {
+  font-size: 12px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 12px;
+}
+
+.main-cont-info {
+  margin-bottom: 16px;
+}
+
+.main-cont-info h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+}
+
+.main-cont-info h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.main-cont-info p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+}
+
+.main-cont-info-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #00376b;
+}
+
+.follwed-by a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737373;
+}
+
+.follwed-by a span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.highlights {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.highlights-container1 {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(15, 141, 231);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.highlights h3 {
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.highlights-align {
+  display: flex;
+}
+
+.top-division {
+  border-bottom: 2px solid red;
 }
